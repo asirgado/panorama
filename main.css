@@ -1,0 +1,46 @@
+figure {
+  animation: 60s linear 0s 1 normal forwards running panorama;
+  background-image: url('images/IMG_8408.jpg');
+  background-size: 2779px 600px;
+  cursor: none;
+  left: 50%;
+  height: 100%;
+  margin-left: -457px;
+  margin-top: -305px;
+  max-height: 610px;
+  max-width: 915px;
+  position: absolute;
+  top: 45%;
+  transform: translateZ(0);
+  width: 100%;
+}
+
+figure:hover {
+  animation-play-state: paused;
+}
+
+/*figcaption {
+  bottom: 50px;
+  color: white;
+  font: 1.1em 'Montaga', serif;
+  line-height: 1.4em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}*/
+
+img {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+@keyframes panorama {
+  from {
+    background-position: 5px;
+  }
+
+  to {
+    background-position: -1854px 5px;
+  }
+}
